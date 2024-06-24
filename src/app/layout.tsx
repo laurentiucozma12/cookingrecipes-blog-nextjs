@@ -13,9 +13,9 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
     <html lang='en'>
       <body className={inter.className}>
@@ -26,7 +26,7 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <Navbar />
-          <main className='max-w-2xl mx-auto px-4 '>{children}</main>
+          <main className='max-w-2xl mx-auto px-4'>{children}</main>
         </ThemeProvider>
       </body>
     </html>
