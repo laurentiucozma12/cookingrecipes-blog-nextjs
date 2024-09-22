@@ -17,7 +17,7 @@
     "clsx": "^2.1.1",
     "lucide-react": "^0.396.0",
     "micromatch": "^4.0.8",
-    "next": "^14.2.4",
+    "next": "^14.2.13",
     "next-sanity": "^9.4.2",
     "next-themes": "^0.3.0",
     "path-to-regexp": "^6.3.0",
